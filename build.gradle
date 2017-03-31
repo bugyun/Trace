@@ -3,7 +3,10 @@
 buildscript {
     repositories {
         jcenter()
+
         mavenCentral()
+        maven { url 'https://jitpack.io' }
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.0'
@@ -19,13 +22,14 @@ allprojects {
     repositories {
         jcenter()
         mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
 }
 
 ext {
     siteUrl = 'https://github.com/bugyun/Trace'
     gitUrl = 'https://github.com/bugyun/Trace.git'
-    group = "com.ruoyun"
+    group = "com.github.bugyun"
     version = "1.0.0"
     id = 'trace'
     name = 'ruoyun'

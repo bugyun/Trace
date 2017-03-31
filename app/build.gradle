@@ -31,4 +31,5 @@ dependencies {
     compile 'com.orhanobut:logger:1.15'
     compile 'com.jakewharton.timber:timber:4.5.1'
 //    compile 'com.ruoyun:trace:1.0.0'
+//    ompile 'com.github.bugyun:Trace:1.0.0'
 }
